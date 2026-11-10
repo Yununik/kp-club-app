@@ -1,0 +1,31 @@
+@page{size:A4;margin:15mm 16mm 14mm}
+body{background:white;font-size:9px;line-height:1.5;color:#3a3530}
+.pdf-header{font-size:8px;padding-bottom:14px;border-bottom:1px solid #ccc0b5;letter-spacing:.01em}
+h1{font-size:41px;margin:22px 0 20px}
+.estimate-group{margin-bottom:24px}
+h3{font-size:15px;font-weight:600;margin:0 0 10px}
+table{border-collapse:collapse;width:100%;text-align:left}
+thead{display:table-header-group}
+th{font-size:9px;font-weight:400;padding:7px 8px;color:#746b63;border-bottom:1px solid #a09381}
+td{font-size:10.5px;line-height:1.55;padding:9px 8px;vertical-align:top;border-bottom:1px solid #ded8d1}
+th:first-child,td:first-child{width:22px;padding-left:0}
+th:nth-child(2),td:nth-child(2){width:26%}
+th:last-child,td:last-child{width:115px;text-align:right;white-space:normal;padding-right:0}
+td:nth-child(3){color:#675f58}
+.total-row td{font-weight:600;background:#eee8e2;padding-top:11px;padding-bottom:11px}
+.total-row td:first-child{padding-left:8px}
+.total-row td:last-child{padding-right:8px}
+.summary-table td:first-child{width:auto}
+.estimate-note{font-size:9px;line-height:1.8;margin-top:20px;color:#675f58}
+tr{break-inside:avoid}
+h3{break-after:avoid}
+.estimate-group:nth-of-type(3){break-before:page}
+.estimate-group:nth-of-type(4),.estimate-group:nth-of-type(5){break-inside:avoid}
+a{color:inherit}
+@media screen{body{max-width:794px;margin:0 auto;padding:50px;background:#fff;box-shadow:0 0 30px #3a35300d}
+html{background:#e0d7d2}
+}
+
+
+.warranty-table td:first-child,.warranty-table th:first-child{width:25%}.warranty-table td:nth-child(2),.warranty-table th:nth-child(2){width:auto}.warranty-table td:last-child,.warranty-table th:last-child{width:100px}.summary-table td:last-child{width:160px}
+

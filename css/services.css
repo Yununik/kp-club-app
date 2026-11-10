@@ -1,0 +1,75 @@
+.auth-copy>.app-button+.app-button{margin-top:10px}
+.auth-copy>.fineprint{font-size:10px;line-height:1.85}
+.auth-consent{margin-top:23px;background:#eee5d9;padding:15px;border-radius:12px}
+.auth-consent>label{display:flex;align-items:center;gap:10px;font-size:11px;min-height:31px;cursor:pointer}
+.auth-consent input{width:18px;height:18px;accent-color:var(--brown);flex-shrink:0}
+.auth-consent>div{display:flex;flex-direction:column;gap:5px;margin:7px 0 0 28px}
+.auth-consent button{background:transparent;text-align:left;padding:4px 0;font-size:10px;line-height:1.6;text-decoration:underline;text-underline-offset:3px;color:var(--brown)}
+.login-form{padding-top:23px}
+.login-form h1{font-size:31px}
+.login-form .field-label{margin-top:16px}
+.login-form .fineprint{font-size:9px;line-height:1.75}
+.club-sections{padding:4px 0 18px;margin:9px 0 7px}
+.club-sections>h3{font-size:12px;margin-bottom:11px;color:var(--muted)}
+.club-sections>div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:14px}
+.club-sections button{display:flex;align-items:center;gap:7px;background:transparent;border-bottom:1px solid #dccbb6!important;padding:13px 0;min-height:64px;text-align:left}
+.club-sections button>svg:first-child{width:18px;height:18px;color:var(--brown)}
+.club-sections button>svg:last-child{width:12px;height:12px;margin-left:auto}
+.club-sections button>span{font-size:11px;min-width:0}
+.club-sections .extra{display:block;width:max-content;margin-top:5px;font-size:7px;padding:2px 5px}
+.live-announcement{border:1px solid #decebb;border-radius:18px;background:#f7f0e7;overflow:hidden;margin:19px 0 26px}
+.live-event-open{display:block;padding:0;width:100%;background:transparent;text-align:left}
+.live-event-open>img{width:100%;height:157px;object-fit:cover;object-position:center 25%}
+.event-copy{display:block;padding:17px 16px 5px}
+.event-copy>small{font-size:9px;color:var(--muted);line-height:1.8;display:block}
+.event-copy>strong{display:block;font-size:13px;line-height:1.75;font-weight:600;margin-top:8px}
+.event-footer{display:flex;align-items:center;justify-content:space-between;gap:7px;padding:12px 14px 16px;flex-wrap:wrap}
+.event-footer .small-link{margin:0;background:transparent;font-size:10px;padding:7px 0;min-height:38px}
+.event-footer .extra{font-size:7px}
+.live-screen>.live-announcement{margin-top:0}
+.live-question-list article{display:flex;align-items:start;gap:10px;padding:19px 0;border-bottom:1px solid #ddd0be}
+.live-question-list b{font-size:11px;font-weight:600}
+.live-question-list p{font-size:12px;line-height:1.85;margin-top:6px;overflow-wrap:anywhere}
+#live-question-form .app-button{margin-top:21px}
+#live-question-form textarea{min-height:100px}
+.event-cover-preview{width:100%;height:173px;object-fit:cover;object-position:center 26%;border-radius:13px;margin:18px 0 24px}
+#admin-live-form h3{margin-top:22px}
+.care-intro{display:flex;align-items:center;gap:10px;padding:16px 19px;font-size:10px;color:var(--muted);line-height:1.8}
+.care-intro .comment-avatar{height:31px;width:31px;min-width:31px}
+.care-thread{min-height:350px;padding-top:8px}
+.care-compose{position:sticky;bottom:0;background:#fffcf9;border-top:1px solid var(--line);z-index:2}
+.care-compose .chat-compose{position:static;border:0;padding-bottom:6px}
+.care-compose>p{font-size:9px;line-height:1.8;color:var(--muted);padding:0 18px 13px;margin:0}
+.review-card{margin:23px 0;padding:20px 17px;border:1px solid #dfd1be;border-radius:18px;background:#fffcf9;overflow:hidden}
+.review-person{display:flex;align-items:center;gap:9px;font-size:11px}
+.review-person>b{flex:1;font-weight:600}
+.review-person>small,.review-card>small{font-size:8px;color:var(--muted)}
+.review-card>p{font-size:12px;line-height:1.9;margin:15px 0}
+.review-card>img{width:100%;height:187px;object-fit:cover;border-radius:12px;margin-top:17px}
+.review-card>video{display:block;width:100%;height:270px;object-fit:cover;border-radius:12px;background:#27211b;margin-top:15px}
+.review-card>small{display:block;margin-top:7px}
+.reviews-page .app-section-title{margin-top:0}
+.success-screen>.app-button{margin-top:27px}
+.chef-entry{display:flex;gap:12px;align-items:center;width:100%;text-align:left;background:#e9dece;border-radius:15px;padding:14px;margin:18px 0}
+.chef-entry>div{flex:1}
+.chef-entry strong{font-size:14px;font-weight:600;display:block}
+.chef-entry span:not(.extra){font-size:10px;line-height:1.7;display:block;margin:6px 0}
+.chef-entry img{width:65px;height:76px;object-fit:cover;border-radius:11px}
+.chef-entry>svg{width:16px;height:16px}
+.chef-screen h1{font-size:31px;margin-top:16px}
+.chef-camera{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;min-height:122px;border:1px dashed #bca98f;background:#ede4d8;border-radius:16px;margin:24px 0 12px;font-size:12px;color:var(--brown);cursor:pointer}
+.chef-camera svg{width:30px;height:30px}
+.chef-camera input{position:absolute;inset:0;opacity:0;width:100%;height:100%;cursor:pointer}
+.chef-camera:has(input:focus-visible){outline:2px solid var(--brown);outline-offset:3px}
+#chef-photo-status{font-size:10px;overflow-wrap:anywhere}
+#chef-form textarea{min-height:108px}
+.consultant-intro{padding:17px 19px 5px}
+.consultant-intro>p{font-size:10px;line-height:1.8;color:var(--muted);margin-top:10px}
+.consultant-thread{min-height:320px;gap:16px;padding-top:14px}
+.consultant-podcast{display:flex;align-items:center;gap:8px;width:100%;text-align:left;padding:12px 0 0;margin-top:13px;border-top:1px solid #d9c9b4!important;background:transparent;font-size:10px;line-height:1.8;color:var(--brown)}
+.consultant-podcast>svg{width:16px;height:16px}
+.consultant-podcast>span{flex:1}
+.consultant-podcast>svg:last-child{width:12px}
+.consultant-prompts{display:flex;flex-wrap:wrap;gap:7px;padding:0 18px 17px}
+.consultant-prompts button{font-size:9px;line-height:1.7;min-height:34px;padding:7px 10px;background:#e9dece;border:1px solid #e1d2bd!important;border-radius:10px;text-align:left}
+@media(max-width:600px){.club-sections button>span{font-size:10px}.club-sections>div{column-gap:10px}.login-form .field-label{margin-top:14px}}

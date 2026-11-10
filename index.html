@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#f4f0ec">
+<title>Коммерческое предложение · Клуб Екатерины Жарой</title>
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/page.css"><link rel="stylesheet" href="css/estimate.css">
+<link rel="stylesheet" href="css/app.css"><link rel="stylesheet" href="css/screens.css"><link rel="stylesheet" href="css/club.css"><link rel="stylesheet" href="css/features.css"><link rel="stylesheet" href="css/services.css"><link rel="stylesheet" href="css/academy.css">
+</head><body>
+<header class="topbar wrap"><a href="#cover">Коммерческое предложение</a><nav aria-label="Разделы предложения"><a href="#prototype">Прототип <span>↗</span></a><a href="#estimate">Смета <span>↗</span></a></nav></header>
+<main>
+<section id="cover" class="cover wrap">
+<div class="cover-copy"><span class="eyebrow">ноябрь 2026</span>
+<h1>Коммерческое<br>предложение</h1>
+<p class="cover-sub">PWA-версия приложения клуба Екатерины Жарой</p>
+<p class="cover-desc">Закрытое приложение о здоровье для участников клуба: диагностика, подкасты, рецепты, эфиры и трекеры.</p>
+<div class="actions"><a class="button primary" href="#prototype">Открыть прототип <span>↗</span></a><a class="button secondary" href="#estimate">Смета <span>↓</span></a></div>
+</div><figure class="cover-photo"><img src="images/katya/katya-medic.jpg" width="960" height="1280" alt="Екатерина Жарая в медицинской форме" fetchpriority="high"></figure>
+</section>
+<section class="wrap section flow" id="structure"><div class="section-title"><span class="section-no">01 /</span><h2>Как устроено<br>приложение</h2><p>Приложение только для тех, кто купил клуб. Бесплатного доступа нет.</p></div><ol class="flow-list"><li><span class="step-num">01</span><div><strong>Вход.</strong> Участник клуба входит по номеру телефона или e-mail. Доступ открывается после оплаты клуба. Участники первого и второго года клуба переходят из Telegram с уже открытым доступом.</div></li>
+<li><span class="step-num">02</span><div><strong>Индивидуальная диагностика.</strong> Короткая анкета о самочувствии: пищеварение, энергия, сон, кожа, цели.</div></li>
+<li><span class="step-num">03</span><div><strong>Персональная подборка.</strong> По ответам приложение предлагает, с каких подкастов начать: например, гастроэнтерология или диетология.</div></li>
+<li><span class="step-num">04</span><div><strong>Клуб.</strong> Подкасты, рецепты, видео и эфиры, лента новостей, дневник КБЖУ, вода и шаги.</div></li></ol></section>
+<section id="prototype" class="prototype-section">
+<div class="prototype-layout wrap"><div class="prototype-copy"><span class="section-no">02 /</span><h2>Прототип <br>приложения</h2><p>Кликабельный прототип: войдите, пройдите диагностику, включите подкаст из подборки, добавьте рецепт в дневник, оставьте комментарий в ленте. Данные демо хранятся только в этом браузере.</p>
+<button id="reset-demo" class="button reset">Начать заново <span>↻</span></button>
+</div><div class="prototype-device"><div id="phone" class="phone" aria-label="Интерактивный прототип приложения клуба">
+<div class="phone-status"><span>9:41</span><div class="phone-island"></div><span aria-hidden="true">▮▮▮ <svg width="18" height="12" viewBox="0 0 24 16"><rect x="1" y="2" width="19" height="12" rx="3" fill="none" stroke="currentColor"/><rect x="3" y="4" width="15" height="8" rx="1" fill="currentColor"/><path d="M22 6v4" stroke="currentColor" stroke-width="2"/></svg></span></div>
+<div id="app" class="app"></div><div id="app-toast" class="app-toast" role="status" aria-live="polite"></div><div class="home-indicator"></div></div>
+<p class="device-caption">Дизайн, вопросы диагностики и материалы в прототипе примерные. В приложении будут ваши.</p></div></div>
+</section>
+<section class="wrap section" id="sections"><div class="section-heading"><span class="section-no">03 /</span><h2>Разделы приложения</h2></div><div class="table-wrap"><table class="sections-table summary-table"><thead><tr><th scope="col">Раздел</th><th scope="col">Что внутри</th></tr></thead><tbody>
+<tr><td data-label="Раздел">Диагностика</td><td data-label="Что внутри">Анкета о самочувствии и персональная подборка материалов по ответам</td></tr>
+<tr><td data-label="Раздел">Подкасты</td><td data-label="Что внутри">Темы: гастроэнтерология, диетология, гормоны, кожа и молодость, иммунитет, психология питания. Плеер с продолжением с места остановки</td></tr>
+<tr><td data-label="Раздел">Рецепты</td><td data-label="Что внутри">База на 170 000+ рецептов с КБЖУ, добавление в дневник</td></tr>
+<tr><td data-label="Раздел">Видео и эфиры</td><td data-label="Что внутри">Записи эфиров, ежемесячные эфиры, бьюти-секреты</td></tr>
+<tr><td data-label="Раздел">Лента клуба</td><td data-label="Что внутри">Новости, анонсы эфиров, ваши посты</td></tr>
+<tr><td data-label="Раздел">Дневник КБЖУ</td><td data-label="Что внутри">Личная норма, приёмы пищи, сканер штрих-кодов</td></tr>
+<tr><td data-label="Раздел">Трекеры</td><td data-label="Что внутри">Вода, шаги и активность</td></tr>
+<tr><td data-label="Раздел">Гайды и документы</td><td data-label="Что внутри">Таблицы, шпаргалки, гайды из канала</td></tr>
+<tr><td data-label="Раздел">Служба заботы</td><td data-label="Что внутри">Вопросы участников, ответы приходят в приложение</td></tr>
+<tr><td data-label="Раздел">Академия</td><td data-label="Что внутри">Обучение по приложению: как установить на экран «Домой» и где что находится</td></tr>
+</tbody></table></div></section>
+<section class="examples-section" id="examples"><div class="wrap"><div class="section-heading"><span class="section-no">04 /</span><h2>Как это работает<br>в наших приложениях</h2><p>Так эти функции уже работают в приложениях, которые мы сделали для других экспертов. В вашем приложении будет ваш дизайн и ваши материалы.</p></div>
+<div class="gallery-controls"><span class="gallery-hint">Листайте</span><div class="gallery-position"><span id="examples-count" aria-live="polite"></span><progress id="examples-progress" value="1" max="15" aria-label="Положение в карусели"></progress></div><button id="examples-prev" class="round-button" aria-label="Предыдущие примеры">←</button><button id="examples-next" class="round-button" aria-label="Следующие примеры">→</button></div>
+<div id="examples-gallery" class="examples-gallery" tabindex="0" aria-label="Скриншоты наших приложений"></div></div></section>
+<section id="estimate" class="wrap section estimate-section"><div class="estimate-heading"><div><span class="section-no">05 /</span><h2>Смета</h2></div><a class="button primary" href="smeta.pdf" download>Скачать смету в PDF <span>↓</span></a></div>
+<section class="estimate-group"><h3>6.1. Базовый пакет — 300 000 ₽</h3>
+<div class="table-wrap"><table class="estimate-table"><thead><tr><th scope="col">№</th><th scope="col">Что делаем</th><th scope="col">Что входит</th><th scope="col">Стоимость</th></tr></thead><tbody>
+<tr><td data-label="№">1</td><td data-label="Что делаем">Перенос материалов из Telegram</td><td data-label="Что входит">Подкасты, гайды, таблицы, шпаргалки и документы по разделам и темам. Поиск, фильтры, «Избранное». Видеоматериалов в канале очень много, поэтому их перенос — отдельная работа (6.2, «Видеоархив»)</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">2</td><td data-label="Что делаем">Дизайн приложения под ключ</td><td data-label="Что входит">Индивидуальный фирменный стиль: свои цвета, шрифты, иконки, кнопки и карточки. Дизайн всех экранов: вход, диагностика, подкасты, рецепты, видео, лента, дневник, профиль, админ-панель. Версии для телефона и компьютера. Макеты согласуем с вами до начала разработки</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">3</td><td data-label="Что делаем">Регистрация и личный кабинет</td><td data-label="Что входит">Вход по номеру телефона или e-mail с кодом подтверждения. Обязательные галочки согласия с документами при регистрации. Личный кабинет: профиль и цели, статус и срок подписки, история оплат и чеки, настройки уведомлений</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">4</td><td data-label="Что делаем">Приём оплат и доступ по тарифам</td><td data-label="Что входит">Подключение ЮKassa, Т-Банка или Продамуса на выбор и интеграция платёжной системы с приложением. Покупка проходит через платёжную систему, после оплаты приложение само открывает доступ по купленному тарифу. Подписка с автопродлением и разовые покупки. Когда подписка заканчивается, доступ закрывается автоматически. Чеки покупателю. CRM: база купивших с тарифами и сроками, выгрузка в таблицу</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">5</td><td data-label="Что делаем">Миграция подписчиков из Telegram</td><td data-label="Что входит">Участники первого и второго года клуба полностью переходят из Telegram в приложение. Переносим базу участников: человек входит по своему номеру телефона или e-mail, и доступ по оплаченному клубу уже открыт</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">6</td><td data-label="Что делаем">Счётчик КБЖУ</td><td data-label="Что входит">Личная норма по росту, весу, возрасту и цели. Дневник питания по приёмам пищи, статистика по дням</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">7</td><td data-label="Что делаем">Сканер штрих-кодов</td><td data-label="Что входит">Продукт с КБЖУ добавляется в дневник по штрих-коду через камеру телефона. Ручное добавление продукта, если его нет в базе</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">8</td><td data-label="Что делаем">Трекер воды</td><td data-label="Что входит">Личная норма, отметки за день, напоминания</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">9</td><td data-label="Что делаем">База рецептов</td><td data-label="Что входит">Наша база на 170 000+ рецептов с КБЖУ. Поиск, фильтры, добавление рецепта в дневник</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">10</td><td data-label="Что делаем">Push-уведомления</td><td data-label="Что входит">Новые материалы, эфиры, напоминания про воду и дневник. Рассылка всем пользователям из админ-панели. Работают на iPhone и Android после установки приложения на экран «Домой»</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">11</td><td data-label="Что делаем">Служба заботы, интеграция с Telegram и MAX</td><td data-label="Что входит">Кнопка «Служба заботы» в приложении. Участники не пишут вам напрямую: их вопросы приходят вашей службе заботы в Telegram или MAX, ответ возвращается человеку в приложение</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">12</td><td data-label="Что делаем">Админ-панель</td><td data-label="Что входит">Ваш кабинет управления приложением, открывается в браузере. Материалы: добавление и редактирование подкастов, гайдов, документов, рецептов и видео, раскладка по разделам. Участники: список, поиск, статус и срок подписки. Оплаты: история платежей, выгрузка базы купивших. Отправка push-уведомлений. Инструктаж по работе с панелью</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">13</td><td data-label="Что делаем">Академия</td><td data-label="Что входит">Обучение по приложению внутри приложения, как в других наших приложениях. После первого входа приложение предлагает пройти обучение и само проводит по экранам: нужный блок подсвечивается, рядом карточка с объяснением, кнопки «Назад», «Далее», «Пропустить». Первые шаги — как установить приложение на экран «Домой» на iPhone и Android, с картинками. Пройти заново можно в любой момент по кнопке «Академия»</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">14</td><td data-label="Что делаем">Юридические документы</td><td data-label="Что входит">Тексты документов готовит ваш юрист: политика обработки персональных данных, согласия, оферта, пользовательское соглашение, дисклеймер. Мы загружаем их в приложение, обновляем при изменениях и ставим обязательные галочки согласия при регистрации и оплате</td><td data-label="Стоимость">входит</td></tr>
+<tr><td data-label="№">15</td><td data-label="Что делаем">Серверы, база данных и хранилище</td><td data-label="Что входит">Серверы в российских дата-центрах: данные участников хранятся в России, как требует 152-ФЗ. База данных: участники, подписки, оплаты, дневники, ответы диагностик. Подключение S3-хранилища для видео, аудио, документов и изображений. Ежедневные резервные копии, шифрованное соединение</td><td data-label="Стоимость">входит</td></tr>
+<tr class="total-row"><td data-label="№"></td><td data-label="Что делаем"><strong>Итого базовый пакет</strong></td><td data-label="Что входит"></td><td data-label="Стоимость"><strong>300 000 ₽</strong></td></tr>
+</tbody></table></div></section>
+<section class="estimate-group"><h3>6.2. Отдельные работы</h3>
+<div class="table-wrap"><table class="estimate-table"><thead><tr><th scope="col">№</th><th scope="col">Работа</th><th scope="col">Что входит</th><th scope="col">Стоимость</th></tr></thead><tbody>
+<tr><td data-label="№">1</td><td data-label="Работа">Видеоархив</td><td data-label="Что входит">Выгрузка всех видео из канала, конвертация для просмотра в приложении, обложки, раскладка по разделам</td><td data-label="Стоимость">60 000 ₽</td></tr>
+<tr><td data-label="№">2</td><td data-label="Работа">Диагностики и персональные планы</td><td data-label="Что входит">15 интерактивных тестов с результатом, рекомендациями и планом. Каждая следующая — по согласованию</td><td data-label="Стоимость">50 000 ₽</td></tr>
+<tr><td data-label="№">3</td><td data-label="Работа">Видео-заставка (по желанию)</td><td data-label="Что входит">Фирменный видеоролик до 10 секунд, который встречает человека при входе в приложение, после него открывается экран входа или главная. <a href="#examples" data-example-jump="splash">Пример — в разделе «Как это работает в наших приложениях»</a></td><td data-label="Стоимость">30 000 ₽</td></tr>
+<tr><td data-label="№">4</td><td data-label="Работа">Генерация изображений</td><td data-label="Что входит">Картинки для рецептов и материалов без своих фотографий. Количество согласуем заранее</td><td data-label="Стоимость">300 ₽ / шт.</td></tr>
+<tr><td data-label="№">5</td><td data-label="Работа">Лендинг</td><td data-label="Что входит">Одностраничный сайт. Состав и стоимость обсуждаем отдельно</td><td data-label="Стоимость">до 50 000 ₽, по договорённости</td></tr>
+</tbody></table></div></section>
+<section class="estimate-group"><h3>6.3. Дополнительные функции</h3>
+<div class="table-wrap"><table class="estimate-table"><thead><tr><th scope="col">№</th><th scope="col">Функция</th><th scope="col">Что входит</th><th scope="col">Стоимость</th></tr></thead><tbody>
+<tr><td data-label="№">1</td><td data-label="Функция">Защита контента</td><td data-label="Что входит">Шифрование видео (DRM): при скриншоте и записи экрана — чёрный экран. Запрет скачивания, водяной знак с кодом участника. Документы без скачивания и копирования</td><td data-label="Стоимость">35 000 ₽</td></tr>
+<tr><td data-label="№">2</td><td data-label="Функция">Шаги и активность из «Здоровья»</td><td data-label="Что входит">Шаги, активные калории и тренировки с iPhone и часов, учёт в норме калорий. На Android — ручной ввод</td><td data-label="Стоимость">30 000 ₽</td></tr>
+<tr><td data-label="№">3</td><td data-label="Функция">Сканер еды по фото</td><td data-label="Что входит">Состав и КБЖУ по фото этикетки или блюда, сохранение как продукт или рецепт</td><td data-label="Стоимость">40 000 ₽</td></tr>
+<tr><td data-label="№">4</td><td data-label="Функция">Эфиры, вопросы и напоминания</td><td data-label="Что входит">Администратор сам создаёт анонс эфира в админ-панели: тема, дата, обложка. Анонс появляется в приложении, участникам автоматически уходят напоминания — push в приложении, а также e-mail, SMS, Telegram и MAX: каналы администратор выбирает сам. К эфиру открывается сбор вопросов: участники пишут вопросы под своими никами, сбор закрывается автоматически. Каждый новый вопрос сразу приходит вам в Telegram, MAX или по SMS</td><td data-label="Стоимость">45 000 ₽</td></tr>
+<tr><td data-label="№">5</td><td data-label="Функция">Отзывы</td><td data-label="Что входит">Участники оставляют отзывы с текстом, фото и видео. Модератор одобряет отзыв в админ-панели, после этого он автоматически публикуется в ленте отзывов. Лента пополняется, читать её могут все участники</td><td data-label="Стоимость">30 000 ₽</td></tr>
+<tr><td data-label="№">6</td><td data-label="Функция">ИИ-повар</td><td data-label="Что входит">Человек фотографирует холодильник или перечисляет, какие продукты есть дома. ИИ-повар по вашим стандартам и правилам питания составляет новые рецепты из этих продуктов</td><td data-label="Стоимость">80 000 ₽</td></tr>
+<tr><td data-label="№">7</td><td data-label="Функция">ИИ-консультант</td><td data-label="Что входит">Чат с нутрициологом внутри приложения, как ChatGPT, но обученный на вашей базе знаний, в вашем стиле, манере и по вашим правилам. Участник может в любое время задать вопрос и получить ответ так, как ответили бы вы</td><td data-label="Стоимость">120 000 ₽</td></tr>
+</tbody></table></div></section>
+<section class="estimate-group"><h3>6.4. Гарантия и доработки</h3>
+<div class="table-wrap"><table class="estimate-table warranty-table"><thead><tr><th scope="col"></th><th scope="col">Что входит</th><th scope="col">Стоимость</th></tr></thead><tbody>
+<tr><td data-label="">Гарантия</td><td data-label="Что входит">2 месяца после запуска бесплатно исправляем ошибки в нашем коде</td><td data-label="Стоимость">бесплатно</td></tr>
+<tr><td data-label="">Доработки и технические вопросы</td><td data-label="Что входит">Новые пожелания, изменение работающих функций и структуры, технические вопросы, которые возникли не по нашей вине (например, неверно указанная почта)</td><td data-label="Стоимость">5 000 ₽ / час</td></tr>
+<tr><td data-label="">Новые модули</td><td data-label="Что входит">Дополнительные модули обсуждаем и с удовольствием реализуем. Если у вас появятся идеи, будем дополнять приложение</td><td data-label="Стоимость">по согласованию</td></tr>
+</tbody></table></div></section><p class="estimate-note">Отдельно по факту — генерация изображений (300 ₽ / шт.) и ежемесячные платежи сервисам: сервер и хранилище, комиссия платёжного сервиса, SMS для входа. При защите контента — видеохостинг Kinescope, ориентировочно 5 600–22 800 ₽ в месяц в зависимости от числа зрителей. Для ИИ-повара и ИИ-консультанта — оплата запросов к нейросети по факту использования.</p>
+</section>
+<section class="work-section"><div class="wrap work-layout"><div><span class="section-no">06 /</span><h2>Этапы работы</h2></div><ol class="work-list"><li><span>01</span><p>Договор, доступы к каналу, материалы.</p></li>
+<li><span>02</span><p>Структура разделов и экранов.</p></li>
+<li><span>03</span><p>Дизайн-система и макеты основных экранов, согласование с вами.</p></li>
+<li><span>04</span><p>Разработка: вход, оплата, диагностика, подкасты, рецепты, видео, лента, трекеры, служба заботы, Академия, админ-панель.</p></li>
+<li><span>05</span><p>Перенос подкастов, гайдов и документов, миграция участников клуба из Telegram. Видео — если подключён «Видеоархив».</p></li>
+<li><span>06</span><p>Проверка на iPhone, Android и компьютере, запуск, инструктаж по админ-панели.</p></li></ol>
+<div class="needs"><h3>Что нужно от вас</h3><p>доступ к каналу или выгрузка материалов; база участников клуба первого и второго года; гайды и документы; юридические документы от вашего юриста; вопросы и выводы для диагностик; реквизиты ИП или ООО; логотип и пожелания по стилю, если есть.</p></div></div></section>
+<footer class="wrap final"><p>Дальше согласуем состав работ и фиксируем стоимость и этапы оплаты в договоре.</p><div class="actions"><a class="button primary" href="#prototype">Открыть прототип <span>↗</span></a><a class="button secondary" href="smeta.pdf" download>Скачать смету в PDF <span>↓</span></a></div><span class="eyebrow">ноябрь 2026</span></footer>
+</main>
+<dialog id="example-dialog"><button id="close-example" class="round-button" aria-label="Закрыть пример">×</button><img id="example-full" alt=""><video id="example-video" controls muted playsinline loop hidden></video><p id="example-caption"></p></dialog>
+<script defer src="js/examples-data.js"></script>
+<script defer src="js/page.js"></script>
+<script defer src="js/icons.js"></script>
+<script defer src="js/data.js"></script>
+<script defer src="js/recipes-data.js"></script>
+<script defer src="js/state.js"></script>
+<script defer src="js/club-data.js"></script>
+<script defer src="js/screens-auth.js"></script>
+<script defer src="js/screens-home.js"></script>
+<script defer src="js/screens-media.js"></script>
+<script defer src="js/screens-recipes.js"></script>
+<script defer src="js/screens-extra.js"></script>
+<script defer src="js/screens-community.js"></script>
+<script defer src="js/screens-membership.js"></script>
+<script defer src="js/screens-library.js"></script>
+<script defer src="js/screens-admin.js"></script>
+<script defer src="js/community-actions.js"></script>
+<script defer src="js/club-actions.js"></script>
+<script defer src="js/screens-services.js"></script>
+<script defer src="js/screens-assistants.js"></script>
+<script defer src="js/service-actions.js"></script>
+<script defer src="js/academy.js"></script>
+<script defer src="js/app.js"></script>
+</body></html>

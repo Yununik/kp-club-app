@@ -1,0 +1,137 @@
+/* Club prototype: shared navigation, editorial cards and conversation screens. */
+.prototype-section{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.phone{border-color:#7c7369;box-shadow:0 0 0 1px #e1d8cf,0 25px 65px #57453620}
+.app{background:#faf7f3;font-size:13px}
+.app-header{position:sticky;top:0;z-index:3;background:#fffcf9f7;border-bottom:1px solid #e9e2da;gap:5px;padding:9px 12px;min-height:65px;backdrop-filter:blur(12px)}
+.app-header h2,.app-header:has(.icon-button:first-child) h2{font-size:25px;line-height:1.14;min-width:0}
+.app-header>.icon{width:20px;color:var(--brown);margin:0 10px}
+.icon-button{min-width:42px;width:42px;height:44px;position:relative}
+.icon-button svg{width:21px;height:21px}
+.app-pad{padding-top:20px;padding-bottom:27px}
+.app h1{font-size:33px;line-height:1.12}
+.app h3{font-size:14px}
+.app-muted{font-size:11px;color:#766b61}
+.app-kicker{font-size:10px}
+.app-button{min-height:49px;border-radius:14px;font-size:12px}
+.app-button.light{background:#ede5dc}
+.app-nav{min-height:70px;padding:7px 7px 1px;box-shadow:0 -6px 20px #62503e05;z-index:4}
+.app-nav button{min-height:53px;font-size:9px;gap:5px;justify-content:center}
+.app-nav button.active{font-weight:600}
+.app-nav button.active svg{background:#ece1d4;box-shadow:0 0 0 6px #ece1d4;border-radius:5px}
+.app-nav button>span{margin-top:2px}
+.extra{font-size:8px;border-color:#b2aea8;color:#675d54;background:#fffcf966}
+.field-label{font-size:12px;gap:9px;margin-top:20px}
+.field-label input,.field-label select,.field-label textarea{font-size:12px;background:#fffcf9;border:1px solid #d8cbbd;border-radius:12px;padding:13px;width:100%;min-width:0;line-height:1.7}
+.field-label textarea{resize:vertical;min-height:130px}
+.form-screen h1{margin:22px 0 8px;font-size:31px}
+.form-screen .app-button{margin-top:25px}
+.text-button{min-height:44px;font-size:11px}
+.chip{min-height:40px;font-size:11px;padding:9px 13px}
+.chips{gap:7px;padding-top:18px;padding-bottom:20px}
+.fineprint{font-size:10px;line-height:1.85}
+.app-toast{font-size:12px;bottom:99px;box-shadow:0 8px 22px #3a353025}
+.splash-screen{height:100%;min-height:710px;position:relative;overflow:hidden;background:#d8c9b8}
+.splash-screen>img{height:100%;width:100%;object-fit:cover;object-position:50% 27%;animation:splash-photo 3s ease-out both}
+.splash-top{position:absolute;top:20px;left:18px;right:18px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.splash-top>span{font-size:9px;background:#fffcf9db;padding:5px 9px;border-radius:6px}
+.splash-top button{display:flex;align-items:center;gap:7px;padding:10px 12px;min-height:44px;background:#fffcf9e6;border-radius:30px;font-size:11px}
+.splash-top svg{width:16px;height:16px}
+.splash-caption{position:absolute;bottom:22px;left:17px;right:17px;padding:24px;background:#f4f0ecef;border-radius:21px}
+.splash-caption h1{font-size:40px;margin-top:12px}
+.splash-caption small{font-size:9px;color:var(--muted)}
+.splash-progress{height:2px;background:#d2c5b6;margin:25px 0 10px;overflow:hidden}
+.splash-progress i{display:block;height:100%;background:var(--brown);transform-origin:left;animation:splash-progress 2.6s linear both}
+.home-header{position:sticky;top:0;z-index:3;min-height:72px;padding:10px 16px;border-bottom:1px solid #e8dfd6;background:#fffcf9f7;backdrop-filter:blur(10px)}
+.home-brand{font:500 21px/1.02 var(--serif);letter-spacing:-.025em}
+.header-tools{display:flex;align-items:center;gap:0}
+.notification-badge{position:absolute;right:4px;top:3px;display:flex;align-items:center;justify-content:center;min-width:14px;height:14px;background:var(--brown);color:white;border-radius:50%;font:8px var(--sans);font-style:normal}
+.home-greeting{margin:7px 0 21px}
+.home-greeting h1{font-size:31px;margin-top:7px}
+.selection-card{min-height:184px;background:#e3d8cb;border:1px solid #ddcebe}
+.selection-card>div{padding:20px 15px}
+.selection-card h3{font-size:28px;line-height:1.05}
+.selection-card.pending h3{font-size:25px}
+.selection-card .small-link{min-height:35px;padding-left:13px;padding-right:13px;font-size:10px}
+.selection-card img{width:43%;object-position:center 20%;border-top-left-radius:70px}
+.home-shortcuts{display:flex;gap:7px;justify-content:space-between;margin:14px 0 21px}
+.home-shortcuts button{flex:1;display:flex;justify-content:space-between;align-items:center;gap:2px;background:transparent;border-bottom:1px solid #cdbfb0;padding:8px 1px;min-height:43px;font-size:10px}
+.home-shortcuts svg{width:12px;height:12px}
+.nutrition-card,.water-card{background:#fffcf9;border:1px solid #e5dace!important;box-shadow:0 5px 15px #5f483307}
+.nutrition-card{gap:15px;padding-top:20px;padding-bottom:20px}
+.nutrition-ring{width:109px;height:109px}
+.nutrition-data .app-card-title{font-size:12px}
+.macro-lines>span,.macro-lines b{font-size:10px}
+.water-card{padding-left:12px;padding-right:12px;margin-top:14px}
+.water-glasses{gap:0;margin-top:12px}
+.water-glass{width:36px;height:44px}
+.water-glass svg{width:28px;height:30px}
+.water-card>p{font-size:9px;margin-top:5px}
+.steps-card{min-height:82px;gap:9px}
+.steps-card>div small{font-size:9px}
+.live-card{background:#e9dfd4;border:1px solid #dacbbb}
+.live-card p{font-size:11px}
+.reminder{min-height:38px;font-size:10px;padding-left:12px;padding-right:12px}
+.recipe-card>strong{font-size:13px}
+.recipe-card>small{font-size:10px}
+.recipe-grid{gap:21px 12px}
+.recipe-grid .recipe-card>strong{font-size:11px}
+.recipe-grid .recipe-card>small{font-size:9px}
+.recipe-grid .recipe-card img{height:135px}
+.recipe-grid .recipe-card>div>span{font-size:8px}
+.recipe-detail h1{font-size:32px}
+.ingredients li,.recipe-steps li{font-size:12px;line-height:1.8}
+.recipe-detail .app-button{position:sticky;bottom:10px;z-index:2;box-shadow:0 6px 20px #6c4e3526}
+.podcast-row{gap:12px;padding:17px 0}
+.podcast-row img{height:78px;width:70px;border-radius:12px}
+.podcast-row small{font-size:9px}
+.podcast-row strong{font-size:12px;line-height:1.65}
+.podcast-row em{font-size:9px}
+.podcast-row>svg{width:19px}
+.player-cover{aspect-ratio:1.35;margin-top:0;margin-bottom:20px}
+.player-screen h1{font-size:29px;line-height:1.1}
+.player-duration{font-size:10px}
+.player-controls{margin-top:19px;gap:43px}
+.player-controls>button{width:44px;height:44px}
+.player-controls .play-button{width:62px;height:62px}
+.speed-button{min-height:36px;font-size:11px;margin-top:14px;min-width:48px}
+.player-screen .continue-button{font-size:10px;min-height:39px;padding:6px 0}
+.audio-seek{margin-top:22px}
+.player-times{font-size:10px;margin-top:10px}
+.diagnosis-intro h1{font-size:34px}
+.diagnostics-intro{padding:20px 20px 23px;border-radius:20px;background:#e6dccf;margin-bottom:20px}
+.diagnostics-intro h1{font-size:36px;margin-top:12px}
+.diagnostics-intro p{font-size:11px;line-height:1.9;color:var(--muted);margin-top:15px}
+.diagnostic-item{display:flex;align-items:center;width:100%;gap:14px;background:transparent;text-align:left;padding:20px 2px;border-bottom:1px solid #ddd0c1!important;min-height:86px}
+.diagnostic-number{font:500 26px var(--serif);color:#9a8167}
+.diagnostic-item>span:nth-child(2){flex:1}
+.diagnostic-item strong{font-size:12px;font-weight:600;display:block}
+.diagnostic-item small{font-size:10px;color:var(--muted);display:block;margin-top:5px}
+.diagnostic-item>svg{width:18px;height:18px}
+.more-diagnostics{display:flex;justify-content:center;align-items:center;gap:8px;width:100%;background:#eae0d5;padding:13px;border-radius:12px;margin-top:22px;font-size:12px;min-height:46px}
+.more-diagnostics svg{width:16px}
+.answer{min-height:56px;font-size:12px;background:#fffaf4;border-color:#e2d6c8!important;padding:15px 16px}
+.answer.selected{background:#e8dcca;border-color:#9c7e61!important}
+.question-screen h1{font-size:32px;margin-top:30px}
+.question-actions{gap:17px}
+.result-screen h1{font-size:35px;margin-top:15px}
+.result-recipe{padding:13px;font-size:12px;border:1px solid #ded0c0!important}
+.result-recipe strong{font-size:11px}
+.result-screen>.app-button{margin-top:23px}
+
+.diagnostics-intro{padding:16px;margin-bottom:16px}
+.diagnostics-intro h1{font-size:33px;margin-top:8px}
+.diagnostics-intro p{margin-top:8px;line-height:1.6}
+.diagnostic-item{padding:12px 2px;min-height:64px}
+.diagnostic-number{font-size:24px}
+.more-diagnostics{margin-top:14px;min-height:44px}
+
+.player-screen{padding-top:14px;padding-bottom:17px}
+.player-cover{aspect-ratio:1.85;margin-bottom:16px}
+.player-screen h1{font-size:27px}
+.player-duration{margin-top:8px}
+.audio-seek{margin-top:16px}
+.player-times{margin-top:8px}
+.player-controls{margin-top:15px}
+.player-meta{display:flex;align-items:center;justify-content:center;gap:15px;margin-top:12px;min-height:36px}
+.player-meta .speed-button{margin:0;min-height:36px}
+.player-meta .continue-button{width:auto;min-height:36px;padding:6px 0;font-size:10px}
